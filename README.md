@@ -91,25 +91,11 @@ Este projeto utiliza comunicação via protocolo **MQTT** e sincronização de h
 * **Client Library:** PubSubClient para ESP32
 * **Servidor NTP:** `pool.ntp.org` (GMT-3)
 
-### Publicações (ESP32 → Broker)
+### Publicações (ESP32 - Broker)
 
 | Tópico                 | Descrição                                |
 | ---------------------- | ---------------------------------------- |
 | `medicamento/horario`  | Horário configurado no formato HH:MM     |
 | `medicamento/alerta`   | Mensagem de alerta quando disparado      |
 
----
 
-## 🔄 Possíveis Extensões
-
-* Configuração remota do horário via MQTT
-* Múltiplos horários de alertas programáveis
-* Histórico de alertas disparados
-* Botão de confirmação de tomada do medicamento
-* Integração com dashboard Node-RED para visualização
-
----
-
-## 📜 Licença
-
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para mais detalhes.
