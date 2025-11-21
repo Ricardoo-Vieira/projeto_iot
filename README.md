@@ -8,7 +8,7 @@ Este repositório implementa um **sistema de lembrete de medicamentos**, utiliza
 
 > *Simulação feita no [Wokwi](https://wokwi.com/).*
 
-![Protótipo do circuito](imagens/prototipo.png)
+![Protótipo do circuito](prototipo.png)
 
 ---
 
